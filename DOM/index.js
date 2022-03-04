@@ -1,3 +1,4 @@
 alert("hello")
-var value=document.querySelector("h1");
-var change=value.innerHTML="akash";
+var value=document.getElementsByClassName("f1")[0];
+value.innerHTML="akash";
+value.style.color="black";
